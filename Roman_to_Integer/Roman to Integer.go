@@ -13,8 +13,7 @@ func romanToInt(s string) int {
 	m['D'] = 500
 	m['M'] = 1000
 
-	res := 0
-	var prevNum int
+	var res, prevNum int
 
 	for _, c := range s {
 		num := m[c]
