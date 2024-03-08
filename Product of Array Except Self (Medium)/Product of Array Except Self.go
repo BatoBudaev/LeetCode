@@ -18,7 +18,7 @@ func productExceptSelf(nums []int) []int {
 		rightProduct *= nums[n-1-i]
 	}
 
-	for i := range leftArr {
+	for i := range answer {
 		answer[i] = leftArr[i] * rightArr[i]
 	}
 
